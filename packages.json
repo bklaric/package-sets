@@ -464,6 +464,14 @@
     "repo": "https://github.com/purescript/purescript-eff.git",
     "version": "v3.2.0"
   },
+  "effect": {
+    "dependencies": [
+      "prelude",
+      "monoid"
+    ],
+    "repo": "https://github.com/purescript/purescript-effect.git",
+    "version": "v1.1.0"
+  },
   "either": {
     "dependencies": [
       "foldable-traversable",
