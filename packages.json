@@ -511,6 +511,11 @@
     "repo": "https://github.com/purescript/purescript-enums.git",
     "version": "v3.2.1"
   },
+  "error": {
+    "dependencies": [],
+    "repo": "https://github.com/bklaric/purescript-error.git",
+    "version": "v1.0.0"
+  },
   "errors": {
     "dependencies": [
       "either",
