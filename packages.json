@@ -28,6 +28,16 @@
     "repo": "https://github.com/bklaric/purescript-idiomatic-node-events.git",
     "version": "v0.3.1"
   },
+  "idiomatic-node-stream": {
+    "dependencies": [
+      "idiomatic-node-events",
+      "idiomatic-node-buffer",
+      "idiomatic-node-errors",
+      "nullable"
+    ],
+    "repo": "https://github.com/bklaric/purescript-idiomatic-node-stream.git",
+    "version": "v0.4.0"
+  },
   "idiomatic-node-server": {
     "dependencies": [
       "idiomatic-node-events",
