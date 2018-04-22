@@ -1,4 +1,13 @@
 {
+  "idiomatic-node-errors": {
+    "dependencies": [
+      "effect",
+      "error",
+      "prelude"
+    ],
+    "repo": "https://github.com/bklaric/purescript-idiomatic-node-errors.git",
+    "version": "v0.1.0"
+  },
   "idiomatic-node-buffer": {
     "dependencies": [
       "undefined",
