@@ -1,4 +1,24 @@
 {
+  "idiomatic-node-buffer": {
+    "dependencies": [
+      "undefined",
+      "foreign",
+      "effect",
+      "prelude"
+    ],
+    "repo": "https://github.com/bklaric/purescript-idiomatic-node-buffer.git",
+    "version": "v0.3.0"
+  },
+  "idiomatic-node-events": {
+    "dependencies": [
+      "effect",
+      "foreign",
+      "prelude",
+      "undefined"
+    ],
+    "repo": "https://github.com/bklaric/purescript-idiomatic-node-events.git",
+    "version": "v0.3.0"
+  },
   "aff": {
     "dependencies": [
       "console",
