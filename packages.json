@@ -1891,7 +1891,7 @@
       "eff"
     ],
     "repo": "https://github.com/purescript/purescript-refs.git",
-    "version": "6b55116e1713db5389e0236feef9cd1073f9f7d0"
+    "version": "no-row-effect"
   },
   "remotedata": {
     "dependencies": [
