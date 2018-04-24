@@ -1888,9 +1888,9 @@
   },
   "refs": {
     "dependencies": [
-      "eff"
+      "effect"
     ],
-    "repo": "https://github.com/purescript/purescript-refs.git",
+    "repo": "https://github.com/bklaric/purescript-refs.git",
     "version": "no-row-effect"
   },
   "remotedata": {
@@ -2273,7 +2273,7 @@
     "dependencies": [],
     "repo": "https://github.com/bklaric/purescript-undefined.git",
     "version": "v1.0.0"
-  },  
+  },
   "unfoldable": {
     "dependencies": [
       "partial",
