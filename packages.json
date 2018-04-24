@@ -46,6 +46,14 @@
     "repo": "https://github.com/bklaric/purescript-idiomatic-node-server.git",
     "version": "v0.4.0"
   },
+  "idiomatic-node-http": {
+    "dependencies": [
+      "idiomatic-node-stream",
+      "idiomatic-node-server"
+    ],
+    "repo": "https://github.com/bklaric/purescript-idiomatic-node-http.git",
+    "version": "v0.1.0"
+  },
   "aff": {
     "dependencies": [
       "console",
