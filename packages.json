@@ -1906,25 +1906,22 @@
   },
   "routing": {
     "dependencies": [
-      "aff",
-      "console",
-      "control",
-      "dom",
-      "eff",
+      "prelude",
       "either",
-      "foldable-traversable",
       "globals",
-      "integers",
       "lists",
       "maps",
       "maybe",
-      "prelude",
       "semirings",
       "tuples",
-      "validation"
+      "validation",
+      "control",
+      "integers",
+      "foldable-traversable",
+      "strings"
     ],
-    "repo": "https://github.com/slamdata/purescript-routing.git",
-    "version": "v7.1.0"
+    "repo": "https://github.com/bklaric/purescript-routing.git",
+    "version": "v8.0.0"
   },
   "run": {
     "dependencies": [
