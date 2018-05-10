@@ -55,6 +55,15 @@
     "repo": "https://github.com/bklaric/purescript-idiomatic-node-http.git",
     "version": "v0.1.0"
   },
+  "http-routing": {
+    "dependencies": [
+      "http-methods",
+      "uri",
+      "variant"
+    ],
+    "repo": "https://github.com/bklaric/purescript-http-routing.git",
+    "version": "v0.1.0"
+  },
   "aff": {
     "dependencies": [
       "console",
