@@ -64,6 +64,16 @@
     "repo": "https://github.com/bklaric/purescript-http-routing.git",
     "version": "v0.3.0"
   },
+  "pg": {
+    "dependencies": [
+    "nullable",
+    "options",
+    "idiomatic-node-events",
+    "idiomatic-node-errors"
+  ],
+    "repo": "https://github.com/bklaric/purescript-pg.git",
+    "version": "v0.1.0"
+  },
   "aff": {
     "dependencies": [
       "console",
