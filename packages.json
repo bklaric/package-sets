@@ -53,7 +53,7 @@
       "idiomatic-node-server"
     ],
     "repo": "https://github.com/bklaric/purescript-idiomatic-node-http.git",
-    "version": "v0.1.0"
+    "version": "v0.2.0"
   },
   "http-routing": {
     "dependencies": [
