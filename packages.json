@@ -2337,12 +2337,10 @@
   },
   "validation": {
     "dependencies": [
-      "bifunctors",
-      "foldable-traversable",
-      "monoid"
+      "either"
     ],
-    "repo": "https://github.com/purescript/purescript-validation.git",
-    "version": "v3.2.0"
+    "repo": "https://github.com/bklaric/purescript-validation.git",
+    "version": "v3.3.0"
   },
   "var": {
     "dependencies": [
