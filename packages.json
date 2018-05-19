@@ -2340,7 +2340,7 @@
       "either"
     ],
     "repo": "https://github.com/bklaric/purescript-validation.git",
-    "version": "v3.3.0"
+    "version": "v3.3.1"
   },
   "var": {
     "dependencies": [
