@@ -55,6 +55,15 @@
     "repo": "https://github.com/bklaric/purescript-idiomatic-node-http.git",
     "version": "v0.2.1"
   },
+  "idiomatic-node-crypto": {
+    "dependencies": [
+    "prelude",
+    "idiomatic-node-errors",
+    "idiomatic-node-buffer"
+  ],
+    "repo": "https://github.com/bklaric/purescript-idiomatic-node-crypto.git",
+    "version": "v0.1.0"
+  },
   "http-routing": {
     "dependencies": [
       "http-methods",
