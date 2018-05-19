@@ -2040,7 +2040,7 @@
       "variant"
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
-    "version": "v2.0.1"
+    "version": "v3.0.0"
   },
   "smolder": {
     "dependencies": [
