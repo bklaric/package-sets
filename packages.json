@@ -81,7 +81,7 @@
     "idiomatic-node-errors"
   ],
     "repo": "https://github.com/bklaric/purescript-pg.git",
-    "version": "v0.1.0"
+    "version": "v0.2.0"
   },
   "aff": {
     "dependencies": [
