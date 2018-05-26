@@ -16,7 +16,7 @@
       "prelude"
     ],
     "repo": "https://github.com/bklaric/purescript-idiomatic-node-buffer.git",
-    "version": "v0.3.2"
+    "version": "v0.3.3"
   },
   "idiomatic-node-events": {
     "dependencies": [
