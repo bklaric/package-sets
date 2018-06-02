@@ -1,88 +1,4 @@
 {
-  "idiomatic-node-errors": {
-    "dependencies": [
-      "effect",
-      "error",
-      "prelude"
-    ],
-    "repo": "https://github.com/bklaric/purescript-idiomatic-node-errors.git",
-    "version": "v0.2.0"
-  },
-  "idiomatic-node-buffer": {
-    "dependencies": [
-      "undefined",
-      "foreign",
-      "effect",
-      "prelude"
-    ],
-    "repo": "https://github.com/bklaric/purescript-idiomatic-node-buffer.git",
-    "version": "v0.3.3"
-  },
-  "idiomatic-node-events": {
-    "dependencies": [
-      "effect",
-      "foreign",
-      "prelude",
-      "undefined"
-    ],
-    "repo": "https://github.com/bklaric/purescript-idiomatic-node-events.git",
-    "version": "v0.3.1"
-  },
-  "idiomatic-node-stream": {
-    "dependencies": [
-      "idiomatic-node-events",
-      "idiomatic-node-buffer",
-      "idiomatic-node-errors",
-      "nullable",
-      "refs"
-    ],
-    "repo": "https://github.com/bklaric/purescript-idiomatic-node-stream.git",
-    "version": "v0.5.1"
-  },
-  "idiomatic-node-server": {
-    "dependencies": [
-      "idiomatic-node-events",
-      "nullable"
-    ],
-    "repo": "https://github.com/bklaric/purescript-idiomatic-node-server.git",
-    "version": "v0.4.0"
-  },
-  "idiomatic-node-http": {
-    "dependencies": [
-      "idiomatic-node-stream",
-      "idiomatic-node-server"
-    ],
-    "repo": "https://github.com/bklaric/purescript-idiomatic-node-http.git",
-    "version": "v0.2.1"
-  },
-  "idiomatic-node-crypto": {
-    "dependencies": [
-    "prelude",
-    "idiomatic-node-errors",
-    "idiomatic-node-buffer"
-  ],
-    "repo": "https://github.com/bklaric/purescript-idiomatic-node-crypto.git",
-    "version": "v0.1.0"
-  },
-  "http-routing": {
-    "dependencies": [
-      "http-methods",
-      "uri",
-      "variant"
-    ],
-    "repo": "https://github.com/bklaric/purescript-http-routing.git",
-    "version": "v0.3.0"
-  },
-  "pg": {
-    "dependencies": [
-    "nullable",
-    "options",
-    "idiomatic-node-events",
-    "idiomatic-node-errors"
-  ],
-    "repo": "https://github.com/bklaric/purescript-pg.git",
-    "version": "v0.2.0"
-  },
   "aff": {
     "dependencies": [
       "console",
@@ -1041,12 +957,86 @@
     "repo": "https://github.com/purescript-contrib/purescript-http-methods.git",
     "version": "v3.0.0"
   },
+  "http-routing": {
+    "dependencies": [
+      "http-methods",
+      "uri",
+      "variant"
+    ],
+    "repo": "https://github.com/bklaric/purescript-http-routing.git",
+    "version": "v0.3.0"
+  },
   "identity": {
     "dependencies": [
       "foldable-traversable"
     ],
     "repo": "https://github.com/purescript/purescript-identity.git",
     "version": "v3.1.0"
+  },
+  "idiomatic-node-buffer": {
+    "dependencies": [
+      "undefined",
+      "foreign",
+      "effect",
+      "prelude"
+    ],
+    "repo": "https://github.com/bklaric/purescript-idiomatic-node-buffer.git",
+    "version": "v0.3.3"
+  },
+  "idiomatic-node-crypto": {
+    "dependencies": [
+      "prelude",
+      "idiomatic-node-errors",
+      "idiomatic-node-buffer"
+    ],
+    "repo": "https://github.com/bklaric/purescript-idiomatic-node-crypto.git",
+    "version": "v0.1.0"
+  },
+  "idiomatic-node-errors": {
+    "dependencies": [
+      "effect",
+      "error",
+      "prelude"
+    ],
+    "repo": "https://github.com/bklaric/purescript-idiomatic-node-errors.git",
+    "version": "v0.2.0"
+  },
+  "idiomatic-node-events": {
+    "dependencies": [
+      "effect",
+      "foreign",
+      "prelude",
+      "undefined"
+    ],
+    "repo": "https://github.com/bklaric/purescript-idiomatic-node-events.git",
+    "version": "v0.3.1"
+  },
+  "idiomatic-node-http": {
+    "dependencies": [
+      "idiomatic-node-stream",
+      "idiomatic-node-server"
+    ],
+    "repo": "https://github.com/bklaric/purescript-idiomatic-node-http.git",
+    "version": "v0.2.1"
+  },
+  "idiomatic-node-server": {
+    "dependencies": [
+      "idiomatic-node-events",
+      "nullable"
+    ],
+    "repo": "https://github.com/bklaric/purescript-idiomatic-node-server.git",
+    "version": "v0.4.0"
+  },
+  "idiomatic-node-stream": {
+    "dependencies": [
+      "idiomatic-node-events",
+      "idiomatic-node-buffer",
+      "idiomatic-node-errors",
+      "nullable",
+      "refs"
+    ],
+    "repo": "https://github.com/bklaric/purescript-idiomatic-node-stream.git",
+    "version": "v0.5.1"
   },
   "indexed-monad": {
     "dependencies": [
@@ -1633,6 +1623,16 @@
     ],
     "repo": "https://github.com/vmchale/ppp.git",
     "version": "v0.2.2"
+  },
+  "pg": {
+    "dependencies": [
+      "nullable",
+      "options",
+      "idiomatic-node-events",
+      "idiomatic-node-errors"
+    ],
+    "repo": "https://github.com/bklaric/purescript-pg.git",
+    "version": "v0.2.0"
   },
   "phoenix": {
     "dependencies": [
