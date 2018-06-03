@@ -1027,7 +1027,7 @@
       "nullable"
     ],
     "repo": "https://github.com/bklaric/purescript-idiomatic-node-process.git",
-    "version": "v0.1.0"
+    "version": "v0.2.0"
   },
   "idiomatic-node-server": {
     "dependencies": [
