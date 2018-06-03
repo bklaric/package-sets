@@ -1019,6 +1019,16 @@
     "repo": "https://github.com/bklaric/purescript-idiomatic-node-http.git",
     "version": "v0.2.1"
   },
+  "idiomatic-node-process": {
+    "dependencies": [
+      "effect",
+      "prelude",
+      "maybe",
+      "nullable"
+    ],
+    "repo": "https://github.com/bklaric/purescript-idiomatic-node-process.git",
+    "version": "v0.1.0"
+  },
   "idiomatic-node-server": {
     "dependencies": [
       "idiomatic-node-events",
